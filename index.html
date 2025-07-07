@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="The Googolplexicon - a Massive Database for Naming Large Numbers"
+    />
+    <meta
+      name="keywords"
+      content="numbers, lexicon, googol, googolplex, googolplexicon, large numbers, massive numbers, number database"
+    />
+
+    <title>The Googolplexicon &vert; Naming Large Numbers</title>
+
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <script type="module" src="/logic.js"></script>
+
+    <main id="eins">
+      <section class="titling">
+        <h1>The Googolplexicon</h1>
+        <hr />
+        <h3>An Ordered Way to Name Large Numbers</h3>
+        <footer class="credit">
+          Conceptualized &amp; Crunched by u1terior
+        </footer>
+      </section>
+      <section class="how">
+        <div>
+          <h2>How it Works</h2>
+          <p></p>
+        </div>
+        <div>
+          <h2>Maximum Capabilities</h2>
+          <p>
+            Currently&comma; the Googolplexicon reaches vast out into the
+            numbers&comma; but even it has upper bounds (at present; will be
+            further expanded in the future)&colon;
+            <br />
+            The maximum value right now is 999 &cdot; 10^(5.72 &cdot;
+            10^192)&comma; that&apos;s far more particles in the observable
+            universe&comma; and yet it continues to be updated&excl;
+          </p>
+        </div>
+        <div>
+          <h2>Prefix Systems</h2>
+          <table>
+            <thead>
+              <th>Language</th>
+              <th>Starting Exponent (log_10)</th>
+              <th>Ending Exponent (log_10)</th>
+            </thead>
+            <tr>
+              <td>English&#47;Latin</td>
+              <td>0</td>
+              <td>3&comma;000</td>
+            </tr>
+            <tr>
+              <td>(Ancient) Greek</td>
+              <td>3&comma;003</td>
+              <td>20&comma;000&comma;000</td>
+            </tr>
+            <tr>
+              <td>Arabic</td>
+              <td>20&comma;000&comma;003</td>
+              <td>7&period;2e59</td>
+            </tr>
+            <tr>
+              <td>Hindi</td>
+              <td>7&period;2e59 &plus; 3</td>
+              <td>1&period;44e79</td>
+            </tr>
+            <tr>
+              <td>Tibetan</td>
+              <td>1&period;44e79 &plus; 3</td>
+              <td>2&period;88e139</td>
+            </tr>
+            <tr>
+              <td>Sanskrit</td>
+              <td>2&period;88e139 &plus; 3</td>
+              <td>5&period;76e192</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </main>
+    <main id="zwei">
+      <label for="num">Number</label>&colon;
+      <input type="number" name="num" id="num" min="1" max="999" />
+      <label for="exp">Exponent</label>&colon;
+      <input type="text" name="exp" id="exp" />
+
+      <button type="button">Name Number</button>
+
+      <div id="result"></div>
+    </main>
+  </body>
+</html>
